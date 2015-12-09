@@ -15,5 +15,19 @@ module ArrayUtility
     def before(single)
       self[index(single) - 1]
     end
+
+    # Puts a value at the start of an array, and deletes all values greater than
+    #   the cap.
+    # @param value [Any] The value to prepend.
+    # @param cap [Int] The maximum number of values in the array.
+    def prepend_capped(value, cap)
+      unshift(value)
+      if size > cap
+        drop(cap).each do |val|
+          delete(val)
+        end
+      end
+      self
+    end
   end
 end
