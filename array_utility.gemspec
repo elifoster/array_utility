@@ -15,9 +15,7 @@ Gem::Specification.new do |s|
   s.files = [
     'lib/array_utility.rb',
 
-    'spec/test_before.rb',
-    'spec/test_next.rb',
-    'spec/test_prepend_capped.rb',
+    'spec/test.rb',
 
     'examples/examples.rb'
   ]
