@@ -1,4 +1,5 @@
 # array_utility
+[![Build Status](https://travis-ci.org/elifoster/array_utility.svg?branch=master)](https://travis-ci.org/elifoster/array_utility)
 Provides some basic Array utilities for Ruby.
 
 ## Installation
