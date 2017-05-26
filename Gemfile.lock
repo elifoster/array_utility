@@ -11,5 +11,8 @@ DEPENDENCIES
   minitest (~> 5.8)
   rake (~> 11.1)
 
+RUBY VERSION
+   ruby 2.4.1p111
+
 BUNDLED WITH
-   1.11.2
+   1.14.6
